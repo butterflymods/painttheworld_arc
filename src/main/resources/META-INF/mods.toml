@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[31,)"
+issueTrackerURL="https://github.com/butterflymods/painttheworld"
+
+[[mods]]
+modId="paint-the-world"
+version="${file.jarVersion}"
+displayName="Paint the World"
+#updateJSONURL="https://[insert]"
+displayURL="https://curseforge.com/minecraft/mc-mods/paint-the-world"
+logoFile="pack.png"
+authors="[Insert / Butterfly Development Team]"
+description='''
+[Insert]
+'''
+
+[[dependencies.paint-the-world]]
+    modId="forge"
+    mandatory=true
+    versionRange="[31,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.paint-the-world]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.2]"
+    ordering="NONE"
+    side="BOTH"
