@@ -1,6 +1,6 @@
 {
     "pack": {
-        "description": {"translate":"pack.paint-the-world.description"},
-        "pack_format": 5
+        "pack_format": 5,
+        "description": {"translate":"mod.paint-the-world.description"}
     }
 }
