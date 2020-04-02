@@ -1,7 +1,8 @@
 package io.github.butterflymods.painttheworld.init;
 
-//import net.minecraft.item.Item;
+import net.minecraft.item.Item;
 
-public class PTWItems {
-//    public static Item <item>;
+public class PTWItems 
+{
+	public static Item paint_brush;
 }
