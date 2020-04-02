@@ -9,10 +9,8 @@ displayName="Paint the World"
 #updateJSONURL="https://[insert]"
 displayURL="https://curseforge.com/minecraft/mc-mods/paint-the-world"
 logoFile="pack.png"
-authors="[Insert / Butterfly Development Team]"
-description='''
-[Insert]
-'''
+authors="Butterfly Development Team"
+description="A Minecraft mod centred around expanding on the dye system with a vanilla feel, and streamlining it with tons of new unique color options"
 
 [[dependencies.paint-the-world]]
     modId="forge"
