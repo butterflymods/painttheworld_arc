@@ -23,7 +23,7 @@ public class PTWRegistries {
     public static void registerItems(final RegistryEvent.Register<Item> event) {
         event.getRegistry().registerAll 
         (
-//                        PTWItems.<item> = simpleItem("<item>"); 
+//                        PTWItems.<item> = simpleItem("<item>");  
         		
                 );
 
