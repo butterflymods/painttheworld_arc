@@ -21,8 +21,10 @@ public class PTWRegistries {
 
     @SubscribeEvent
     public static void registerItems(final RegistryEvent.Register<Item> event) {
-        event.getRegistry().registerAll (
-//                        PTWItems.<item> = simpleItem("<item>");
+        event.getRegistry().registerAll 
+        (
+//                        PTWItems.<item> = simpleItem("<item>"); 
+        		
                 );
 
         registerBlockItems(event);
