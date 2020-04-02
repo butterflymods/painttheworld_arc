@@ -1,0 +1,33 @@
+{
+    "schemaVersion": 1,
+    "id": "paint-the-world",
+    "version": "${version}",
+
+    "name": "Paint the World",
+    "description": "A Minecraft mod centred around expanding on the dye system with a vanilla feel, and streamlining it with tons of new unique color options",
+    "authors": [
+        "the Butterfly Development Team"
+    ],
+    "contact": {
+        "homepage": "https://curseforge.com/minecraft/mc-mods/paint-the-world",
+        "sources": "https://github.com/butterflymods/painttheworld",
+        "issues": "https://github.com/butterflymods/painttheworld/issues"
+    },
+
+    "license": "GPL-3.0",
+    "icon": "pack.png",
+
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "io.github.butterflymods.painttheworld.PaintTheWorld"
+        ]
+    },
+    "mixins": [],
+
+    "depends": {
+        "fabricloader": ">=0.7.4",
+        "fabric": "*",
+        "minecraft": "1.15.x"
+    }
+}
