@@ -1,4 +1,4 @@
-package io.github.butterflymods.painttheworld;
+package io.github.butterflymods.painttheworld.events;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
