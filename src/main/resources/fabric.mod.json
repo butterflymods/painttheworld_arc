@@ -1,6 +1,6 @@
 {
     "schemaVersion": 1,
-    "id": "paint-the-world",
+    "id": "painttheworld",
     "version": "${version}",
 
     "name": "Paint the World",
@@ -9,7 +9,7 @@
         "the Butterfly Development Team"
     ],
     "contact": {
-        "homepage": "https://curseforge.com/minecraft/mc-mods/paint-the-world",
+        "homepage": "https://curseforge.com/minecraft/mc-mods/painttheworld",
         "sources": "https://github.com/butterflymods/painttheworld",
         "issues": "https://github.com/butterflymods/painttheworld/issues"
     },

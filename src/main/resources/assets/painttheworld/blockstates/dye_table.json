@@ -1,5 +1,5 @@
 {
     "variants": {
-        "": { "model": "paint-the-world:block/dye_table" }
+        "": { "model": "painttheworld:block/dye_table" }
     }
 }

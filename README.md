@@ -17,5 +17,5 @@ https://butterflymods.github.io/painttheworld
 ## Installation (Users)
 Paint the World uses *Fabric* as it's mod API. Refer to their installation instructions [here](https://fabricmc.net#installation)
 
-Once you have Fabric installed, simply download the latest version of Paint the World from [CurseForge](https://curseforge.com/minecraft/mc-mods/paint-the-world/files) and place it in your `mods` folder.
+Once you have Fabric installed, simply download the latest version of Paint the World from [CurseForge](https://curseforge.com/minecraft/mc-mods/painttheworld/files) and place it in your `mods` folder.
 **Remember to use the Fabric launcher profile when starting the game!**

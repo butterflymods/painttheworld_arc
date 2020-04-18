@@ -1,21 +1,29 @@
 package io.github.butterflymods.painttheworld;
 
+import io.github.butterflymods.painttheworld.init.*;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.Items;
 import net.minecraft.util.Identifier;
 import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 
 public class PaintTheWorld implements ModInitializer {
     public static final String MOD_ID = "painttheworld";
-    public static final ItemGroup ITEM_GROUP = FabricItemGroupBuilder.build(new Identifier(MOD_ID, "item_group"), () -> new ItemStack(Items.BLACK_DYE));
-    public static final Logger LOGGER = LogManager.getLogger(MOD_ID);
+    public static final ItemGroup ITEM_GROUP = FabricItemGroupBuilder.build(new Identifier(MOD_ID, "item_group"), () -> new ItemStack(PTWItems.PAINTBRUSH));
 
+    @SuppressWarnings("all")
     @Override
     public void onInitialize() {
-        LOGGER.info("[" + MOD_ID + "] Loaded");
+        log("Loading");
+
+        new PTWBlocks();
+        new PTWItems();
+
+        log("Loaded");
+    }
+
+    public static void log(String text) {
+        LogManager.getLogger(MOD_ID).info("[Paint the World] " + text);
     }
 }

@@ -6,7 +6,7 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "paint-the-world:dye_table"
+                    "name": "painttheworld:dye_table"
                 }
             ],
             "conditions": [

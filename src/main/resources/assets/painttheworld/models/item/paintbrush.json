@@ -1,7 +1,7 @@
 {
     "parent": "item/handheld",
     "textures": {
-        "layer0": "paint-the-world:item/paintbrush",
-        "layer1": "paint-the-world:item/paintbrush_overlay"
+        "layer0": "painttheworld:item/paintbrush",
+        "layer1": "painttheworld:item/paintbrush_overlay"
     }
 }
