@@ -1,0 +1,13 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "paint-the-world:block/dye_table_top",
+
+        "down": "paint-the-world:block/dye_table_bottom",
+        "up": "paint-the-world:block/dye_table_top",
+        "north": "paint-the-world:block/dye_table_side_empty",
+        "east": "paint-the-world:block/dye_table_empty",
+        "south": "paint-the-world:block/dye_table_front",
+        "west": "paint-the-world:block/dye_table_side_splattered"
+    }
+}
