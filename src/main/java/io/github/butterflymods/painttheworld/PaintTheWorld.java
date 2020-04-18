@@ -14,7 +14,7 @@ import org.apache.logging.log4j.Logger;
 @Mod(PaintTheWorld.MOD_ID)
 public class PaintTheWorld {
     public static PaintTheWorld instance;
-    public static final String MOD_ID = "paint-the-world";
+    public static final String MOD_ID = "painttheworld";
     public static final ItemGroup ITEM_GROUP = new CustomItemGroup(MOD_ID, PTWItems.PAINTBRUSH);
     public static final Logger LOGGER = LogManager.getLogger(MOD_ID);
 
