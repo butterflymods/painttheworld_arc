@@ -10,7 +10,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 public class PaintTheWorld implements ModInitializer {
-    public static final String MOD_ID = "paint-the-world";
+    public static final String MOD_ID = "painttheworld";
     public static final ItemGroup ITEM_GROUP = FabricItemGroupBuilder.build(new Identifier(MOD_ID, "item_group"), () -> new ItemStack(Items.BLACK_DYE));
     public static final Logger LOGGER = LogManager.getLogger(MOD_ID);
 
