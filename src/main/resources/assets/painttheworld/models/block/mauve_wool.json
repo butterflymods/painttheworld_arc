@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "painttheworld:block/mauve_wool"
+    }
+}

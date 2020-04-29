@@ -24,6 +24,6 @@ public class PaintTheWorld implements ModInitializer {
     }
 
     public static void log(String text) {
-        LogManager.getLogger(MOD_ID).info("[Paint the World] " + text);
+        LogManager.getLogger(MOD_ID).info("[PTW] " + text);
     }
 }

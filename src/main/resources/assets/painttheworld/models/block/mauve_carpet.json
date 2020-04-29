@@ -1,0 +1,7 @@
+{
+    "parent": "block/carpet",
+    "textures": {
+        "particle": "painttheworld:block/mauve_wool",
+        "wool": "painttheworld:block/mauve_wool"
+    }
+}

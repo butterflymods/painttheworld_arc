@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "": [
+            { "model": "painttheworld:block/cream_concrete_powder" },
+            { "model": "painttheworld:block/cream_concrete_powder", "y": 90 },
+            { "model": "painttheworld:block/cream_concrete_powder", "y": 180 },
+            { "model": "painttheworld:block/cream_concrete_powder", "y": 270 }
+        ]
+    }
+}
